@@ -1,0 +1,70 @@
+.navdiv{
+    display: flex;width:100%;height: 100px;justify-content: center;align-items: center;
+    background-color: rgb(2, 2, 39);color: white;flex-wrap: wrap;overflow: hidden;
+}
+.navdiv p{
+    padding: 20px;
+}
+
+/* 2nd */
+
+.imgdiv{
+    background-image: url(./images/banner.jpg);width: 100%;height: 400px;margin-top: 40px;
+}
+.imgch{
+    position: relative;left: 20%;top: 20%;width:50%;
+}
+
+/* .imgch h6{
+    color: orangered;
+} */
+.imgch h1{
+    color: chocolate;
+}
+.imgch div h3{
+    color: white;
+}
+
+/* 3rd */
+
+.immgmaindiv{
+ display: flex;width: 100%;height: 150vh;justify-content: center; margin-top: 40px;
+ border-radius: 10%;overflow: hidden;
+}
+.immgdiv{
+    width: 80%;height: 140vh;box-shadow: 2px 2px 4px 4px grey;display: flex;
+    margin-top: 20px;
+    
+}
+.leftdiv{
+    background-color: rgb(15, 15, 73); width: 25%;height: 140vh;
+}
+.leftup{
+    width: 100%;height: 50px;background-color: white;box-shadow: 2px 2px 4px 4px lightgrey;
+    display: flex;justify-content: center;align-items: center;
+}
+.lbeldivs{
+    color: white;display: flex;justify-content: center;align-items: center;
+    width: 100%;height: 50px;border-bottom: 1px solid white;
+}
+.rightdiv{
+    width:60% ;height: 120vh;display: flex;justify-content: center;align-items: center;margin-left: 50px;
+    flex-wrap: wrap;
+}
+.rightchdiv{
+    height: 350px;width: 28%;box-shadow: 2px 2px 4px 4px lightgrey;margin-right: 20px;
+    overflow: hidden;
+}
+.rimgs{
+    width: 100%;
+}
+@media screen and (max-width:1250px) {
+    .rightchdiv{
+        width: 22%; overflow: hidden;font: 10px;
+    }
+}
+@media screen and (max-width:700px) {
+    .rightchdiv{
+        height: 200px;font-size: 10px;
+    }
+}

@@ -1,0 +1,53 @@
+.divmain{
+    display: flex;width: 100%;min-height: 100vh;justify-content: space-around;flex-wrap: wrap;
+    background-color: rgb(188, 121, 250);
+}
+.parentdiv{
+    width: 400px;height: 170px;background-color: white;border-radius: 10px;
+    display: flex;margin-top: 10px;margin-left: 10px;margin-right: 10px;
+}
+.leftdiv{
+    width: 35%;height: 170px;display: flex;
+    justify-content: center;align-items: center;border-radius: 10px;
+}
+.image{
+    width: 90%;height: 160px;border-radius: 10px;
+}
+.rightdiv{
+    width: 60%;margin-left: 10px;justify-self: center;align-self: center;
+    height: 160px;
+}
+.r1{
+    width: 70%;height: 30px;
+    position: relative;left: 10%;top: 10px;margin-bottom: 7px;overflow: hidden;
+}
+.r2{
+    width: 70%;height: 30px;overflow: hidden;
+    position: relative;left: 10%;top: 10px;margin-bottom: 7px;text-align: center;
+}
+.r3{
+    width: 85%;height: 50px;background-color: rgb(206, 206, 246);
+    position: relative;left: 10%;top: 10px;margin-bottom: 10px;text-align: center;
+    display: flex; border-radius: 10px;justify-content: space-between;
+}
+.r31{
+    width: 30%;height: 50px;overflow: hidden;
+}
+.r32{
+    width: 30%;height: 50px;overflow: hidden;
+}
+.r33{
+    width: 30%;height: 50px;overflow: hidden;
+}
+
+@media screen and (max-width:700px) {
+   .divmain {
+    display: flex;width: 100%;justify-content: center;flex-wrap: wrap;
+    background-color: rgb(188, 121, 250);min-height: 100vh;  
+    }
+}
+@media screen and (max-width:1200px) {
+    .divmain{
+        justify-content: space-around;
+    }
+}
